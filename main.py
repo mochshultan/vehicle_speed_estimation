@@ -13,6 +13,8 @@ Keys
 ----
 ESC - exit
 """
+# Python 2/3 compatibility
+from __future__ import print_function
 
 import sys
 import math
@@ -21,9 +23,6 @@ import cv2 as cv
 
 import video
 from common import anorm2, draw_str
-
-# Python 2/3 compatibility
-from __future__ import print_function
 
 class App:
     """
